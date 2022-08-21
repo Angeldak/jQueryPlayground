@@ -10,9 +10,31 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="app.js"></script>
 </head>
+<header>
+    <h1>jQuery Playground</h1>
+</header>
 
 <body>
-    <h1>jQuery Playground</h1>
+    <section>
+        <h2>Color Grid</h2>
+        <div class="container">
+            <div class="row">
+                <button id="greyBtn">Grey Buttons</button>
+                <button id="colorWheelBtn">Color Wheel</button>
+            </div>
+            <div class="colorGrid">
+                <div data-info="colorbox" id="color1" class="color1"></div>
+                <div data-info="colorbox" id="color2" class="color2"></div>
+                <div data-info="colorbox" id="color3" class="color3"></div>
+                <div data-info="colorbox" id="color4" class="color4"></div>
+                <div data-info="colorbox" id="color5" class="color5"></div>
+                <div data-info="colorbox" id="color6" class="color6"></div>
+            </div>
+            <div class="row">
+                <button id="resetColorGrid">Reset</button>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

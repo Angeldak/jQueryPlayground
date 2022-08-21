@@ -1,0 +1,68 @@
+h1,
+h2 {
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.colorGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 7rem);
+    grid-template-rows: repeat(2, 7rem);
+    margin: 0;
+
+}
+
+.color1 {
+    background-color: red;
+    height: 7rem;
+    width: 7rem;
+}
+
+.color2 {
+    background-color: orange;
+    height: 7rem;
+    width: 7rem;
+}
+
+.color3 {
+    background-color: yellow;
+    height: 7rem;
+    width: 7rem;
+}
+
+.color4 {
+    background-color: green;
+    height: 7rem;
+    width: 7rem;
+}
+
+.color5 {
+    background-color: blue;
+    height: 7rem;
+    width: 7rem;
+}
+
+.color6 {
+    background-color: violet;
+    height: 7rem;
+    width: 7rem;
+}
+
+.colorGrey {
+    background-color: gray;
+}
